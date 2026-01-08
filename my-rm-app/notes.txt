@@ -1,0 +1,1 @@
+bilerek env dosyasını ignorelamadım
