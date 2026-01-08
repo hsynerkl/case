@@ -48,10 +48,7 @@ export function CharacterFilters() {
           Status
         </label>
         <Select value={localStatus} onValueChange={onStatusChange}>
-          <SelectTrigger
-            id="status-filter"
-            className="w-[180px] cursor-pointer"
-          >
+          <SelectTrigger id="status-filter" className="w-45 cursor-pointer">
             <SelectValue placeholder="Select status" />
           </SelectTrigger>
           <SelectContent>
